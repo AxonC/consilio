@@ -1,12 +1,11 @@
-name: Jest Unit Tests
+name: 'Jest Unit Tests'
+description: 'Runs the project Jest Unit tests'
 
 on: [push]
 
 jobs:
-  build:
-
+  tests:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
@@ -16,4 +15,3 @@ jobs:
     - name: Setup Node.js for use with actions
     - run: npm ci
     - run: npm run test:unit
-
