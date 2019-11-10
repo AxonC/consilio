@@ -1,13 +1,12 @@
 {
-  "name": "consilio",
-  "version": "0.1.0",
+  "name": "@vatsim-uk/consilio",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "build-lib": "vue-cli-service build --target lib --name consilio src/main.ts"
+    "build:lib": "vue-cli-service build --target lib --name consilio src/main.ts"
   },
   "main": "./dist/consilio.common.js",
   "dependencies": {
@@ -61,6 +60,7 @@
       }
     ]
   },
+  "files": [  "dist/*",  "src/*",  "public/*",  "*.json",  "*.js"],
   "postcss": {
     "plugins": {
       "autoprefixer": {},

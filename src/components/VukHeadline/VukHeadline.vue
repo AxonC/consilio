@@ -30,10 +30,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-@import '~v'
-.vuk-headline {
-
-}
-</style>
