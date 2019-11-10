@@ -1,8 +1,10 @@
 import Vue from 'vue'
-import App from './App.vue'
+import Playground from './Playground.vue'
 
 Vue.config.productionTip = false
 
+import "./styles/main.scss"
+
 new Vue({
-  render: h => h(App),
+  render: h => h(Playground),
 }).$mount('#app')
