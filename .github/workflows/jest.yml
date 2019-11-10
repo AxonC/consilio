@@ -1,5 +1,4 @@
 name: 'Jest Unit Tests'
-description: 'Runs the project Jest Unit tests'
 
 on: [push]
 
