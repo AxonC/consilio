@@ -1,1 +1,1 @@
-export * from './VukHeadline'
+export * from './VukHeading'
