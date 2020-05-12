@@ -1,6 +1,6 @@
 {
   "name": "@vatsim-uk/consilio",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -68,7 +68,8 @@
     "src/*",
     "public/*",
     "*.json",
-    "*.js"
+    "*.js",
+    "*.ts"
   ],
   "postcss": {
     "plugins": {
