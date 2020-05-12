@@ -17,8 +17,4 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
-new Vue({
-  render: h => h(Playground),
-}).$mount('#app')
-
 export default Object.assign({}, components, {install})
