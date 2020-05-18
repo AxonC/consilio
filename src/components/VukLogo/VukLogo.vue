@@ -25,7 +25,6 @@
 <script lang="ts">
   import Vue from 'vue'
   import { Component, Prop, Ref } from 'vue-property-decorator'
-  import { TailColors } from './logoVariants'
   import { StringDictionary } from '@/types'
   @Component({ name: 'VukLogo' })
   export default class VukLogo extends Vue {
