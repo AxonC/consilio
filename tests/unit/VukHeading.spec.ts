@@ -1,6 +1,9 @@
-import VukHeading from "@/components/VukHeading/VukHeading.vue";
-import { HeadingTypes, HeadingSizes } from "@/components/VukHeading/headingTypes";
-import {shallowMount} from "@vue/test-utils";
+import VukHeading from '@/components/VukHeading/VukHeading.vue'
+import {
+  HeadingTypes,
+  HeadingSizes
+} from '@/components/VukHeading/headingTypes'
+import { shallowMount } from '@vue/test-utils'
 
 describe('VukHeading', () => {
   let cmp: any
@@ -44,7 +47,7 @@ describe('VukHeading', () => {
 
       it('should default to heading-4 if an invalid or unsupported value is provided', () => {
         cmp.setProps({ type: 'garbage' })
-        expect(cmp.vm.headingType).toEqual(HeadingTypes["heading-4"])
+        expect(cmp.vm.headingType).toEqual(HeadingTypes['heading-4'])
       })
     })
 
@@ -55,7 +58,7 @@ describe('VukHeading', () => {
       })
 
       it('should default to the size of heading-4 if invalid input provided', () => {
-        cmp.setProps({ type: 'garbage '})
+        cmp.setProps({ type: 'garbage ' })
         expect(cmp.vm.size).toEqual(HeadingSizes[HeadingTypes['heading-4']])
       })
     })

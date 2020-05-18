@@ -32,11 +32,11 @@ module.exports = {
       bold: 700
     },
     fontSize: {
-      'xs': '.75rem',
-      'sm': '.875rem',
-      'base': '1rem',
-      'lg': '1.125rem',
-      'xl': '1.75rem',
+      xs: '.75rem',
+      sm: '.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.75rem',
       '2xl': '2.25rem',
       '3xl': '3rem',
       '4xl': '6rem'
