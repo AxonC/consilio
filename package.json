@@ -1,6 +1,6 @@
 {
   "name": "@vatsim-uk/consilio",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -10,7 +10,8 @@
     "test:unit": "vue-cli-service test:unit --coverage",
     "lint": "vue-cli-service lint",
     "build:lib": "vue-cli-service build --target lib --name consilio src/main.ts",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 20 && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "commit": "git-cz"
   },
   "main": "./dist/consilio.common.js",
   "dependencies": {
