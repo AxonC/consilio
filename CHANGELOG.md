@@ -1,3 +1,9 @@
+## [0.2.2](https://github.com/VATSIM-UK/consilio/compare/v0.2.1...v0.2.2) (2020-07-19)
+
+### Bug Fixes
+
+- **vuklogo:** correct issue with export of component ([7e89e7d](https://github.com/VATSIM-UK/consilio/commit/7e89e7dc7aaf7abd9b46ea9fd837d9c1994ef762))
+
 ## [0.2.1](https://github.com/VATSIM-UK/consilio/compare/v0.2.0...v0.2.1) (2020-05-23)
 
 # [0.2.0](https://github.com/VATSIM-UK/consilio/compare/v0.1.4...v0.2.0) (2020-05-20)
