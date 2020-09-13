@@ -1,16 +1,3 @@
-<template>
-  <component
-    :is="headingType"
-    class="text-white subpixel-antialiased leading-loose"
-    :class="[fontWeight, size]"
-  >
-    <!--
-        @slot - Defines the text of the heading.
-      -->
-    <slot />
-  </component>
-</template>
-
 <script>
   import { HeadingTypes, HeadingSizes } from './headingTypes'
   export default {
@@ -56,6 +43,22 @@
           HeadingSizes[HeadingTypes['heading-4']]
         )
       }
+    },
+
+    render(h) {
+      return h(
+        this.headingType,
+        {
+          class: [
+            'text-white',
+            'subpixel-antialiased',
+            'leading-loose',
+            this.fontWeight,
+            this.size
+          ]
+        },
+        this.$slots.default
+      )
     }
   }
 </script>
