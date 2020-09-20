@@ -9,19 +9,27 @@ module.exports = {
         light: '#25ADE3'
       },
       grey: {
-        base: '#1F2122',
-        secondary: '#F2F2F1',
-        100: '#222425',
-        200: '#27292A',
-        300: '#313334',
-        400: '#3B3D3E',
-        500: '#585A5A'
+        base: '#121212',
+        0: 'rgba(255,255,255,0)',
+        100: 'rgba(255,255,255,0.05)',
+        200: 'rgba(255,255,255,0.07)',
+        300: 'rgba(255,255,255,0.08)',
+        400: 'rgba(255,255,255,0.09)',
+        500: 'rgba(255,255,255,0.11)',
+        600: 'rgba(255,255,255,0.12)',
+        700: 'rgba(255,255,255,0.14)',
+        800: 'rgba(255,255,255,0.15)',
+        900: 'rgba(255,255,255,0.16)',
+        low: 'rgba(255, 255, 255, 0.38)',
+        medium: 'rgba(255, 255, 255, 0.60)',
+        high: 'rgba(255, 255, 255, 0.87)'
       },
       green: '#3BC35A',
       red: '#E3253B',
       violet: '#C33B77',
       yellow: '#E3B725',
-      white: '#ffffff'
+      white: 'rgba(255, 255, 255, 0.87)',
+      transparent: 'transparent'
     },
     fontFamily: {
       display: 'Roboto'
@@ -42,6 +50,12 @@ module.exports = {
       '4xl': '6rem'
     }
   },
-  variants: {},
+  variants: {
+    backgroundColor: ({ after }) => after(['disabled']),
+    cursor: ({ after }) => after(['disabled']),
+    textColor: ({ after }) => after(['disabled']),
+    borderWidth: ({ after }) => after(['disabled']),
+    borderColor: ({ after }) => after(['disabled'])
+  },
   plugins: []
 }
