@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VukButton snapshot should match the snapshot 1`] = `
+<button
+  class="flex py-4 px-8 rounded font-display border-2 items-center disabled:bg-grey-300 disabled:cursor-not-allowed disabled:text-grey-low disabled:border-2 disabled:border-grey-300 transition duration-300 ease-in-out hover:bg-opacity-25 text-white bg-primary border-primary"
+/>
+`;

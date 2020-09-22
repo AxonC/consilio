@@ -8,6 +8,12 @@ const install = function (Vue: VueConstructor, options: Object = {}) {
   Object.values(components).forEach(component => {
     Vue.component(component.name, component)
   })
+
+  Vue.directive('button-icon', {
+    inserted(el) {
+      el.classList.add('h-4', 'mr-2', 'stroke-current')
+    }
+  })
 }
 
 // @ts-ignore
