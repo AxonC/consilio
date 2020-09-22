@@ -1,3 +1,9 @@
+# [0.3.0](https://github.com/VATSIM-UK/consilio/compare/v0.2.2...v0.3.0) (2020-09-22)
+
+### Features
+
+- **VukButton:** add button component with primary & secondary variants ([#11](https://github.com/VATSIM-UK/consilio/issues/11)) ([9f84073](https://github.com/VATSIM-UK/consilio/commit/9f840733ad5e5a5bbeeb555a2bb5e1c101925fe3))
+
 ## [0.2.2](https://github.com/VATSIM-UK/consilio/compare/v0.2.1...v0.2.2) (2020-07-19)
 
 ### Bug Fixes
